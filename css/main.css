@@ -1,0 +1,165 @@
+html, body {
+  min-height: 100vh;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/static/Montserrat-Medium.ttf);
+}
+
+body {
+  background-color: #ced1ff;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Montserrat';
+}
+
+
+.leaf {
+  width: 50px;
+  height: 50px;
+  
+}
+
+.h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+.h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25%;
+
+}
+
+li {
+  list-style: none;
+}
+
+.form-above {
+  background-color: aliceblue;
+  margin-top: 5%;
+  padding: 2% 3%;
+  border-radius: 10px;
+}
+
+.li-head {
+  display: flex;
+  justify-content: center; /* по горизонтали */
+  flex-direction: column;
+  align-items: center;     /* по вертикали */
+  
+}
+
+.empty {
+  padding: 5px;
+  font-size: 18px;
+  opacity: 75%;
+
+}
+
+/* .full-list::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: gray;
+  margin: 10px;
+  opacity: 30%;
+} */
+
+.full-list-item {
+  font-size: 15px;
+  margin-bottom: 5;
+  padding: 0;
+}
+
+.full-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+button img {
+  width: 15px;
+  height: 15px;
+}
+
+hr {
+  opacity: 50px;
+  height: 0.5px;
+}
+
+.card {
+  background-color: aliceblue;
+  margin-top: 5%;
+ /* padding: 2% 3%;*/
+  border-radius: 10px;
+}
+
+.card-header {
+  background-color: rgb(232, 233, 245);
+  padding: 2% 3%;
+  border-top-right-radius: 10px ;
+  border-top-left-radius: 10px ;
+}
+
+.form-control {
+  width: 95%;
+  border: solid 0.2px;
+  border-color: #bbbbbb;
+  border-radius: 5px;
+  height: 25px;
+  padding-left: 7px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center; /* по горизонтали */
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3%;
+}
+
+.btn {
+  background-color: blue;
+  border-radius: 5px;
+  width: 150px;
+  border: none;
+  height: 40px;
+  color: white;
+  margin: 3%;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.form-text {
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.none {
+  display: none !important;
+}
+
+.btn-action img {
+  pointer-events: none;
+  
+}
+
+.btn-action {
+  margin: 2px;
+}
+
+.task-title--done {
+  opacity: 0.8;
+  text-decoration: line-through;
+}
