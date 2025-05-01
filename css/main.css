@@ -1,10 +1,8 @@
 html, body {
   min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
-@font-face {
-  font-family: 'Montserrat';
-  src: url(/static/Montserrat-Medium.ttf);
-}
+
 
 body {
   background-color: #ced1ff;
@@ -19,7 +17,7 @@ body {
 .leaf {
   width: 50px;
   height: 50px;
-  
+  pointer-events: none;
 }
 
 .h1 {
@@ -54,6 +52,7 @@ li {
   justify-content: center; /* по горизонтали */
   flex-direction: column;
   align-items: center;     /* по вертикали */
+  pointer-events: none;
   
 }
 
@@ -61,6 +60,7 @@ li {
   padding: 5px;
   font-size: 18px;
   opacity: 75%;
+  pointer-events: none;
 
 }
 
@@ -162,4 +162,8 @@ hr {
 .task-title--done {
   opacity: 0.8;
   text-decoration: line-through;
+}
+
+.list-group {
+  pointer-events: none;
 }
